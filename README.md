@@ -9,15 +9,21 @@ REQUIREMENTS:
 
 GETTING CONFIGURED:
 - Using the pip command, install the AWS CLI and Boto3:
+
   pip install awscli boto3 -U --ignore-installed six
   
 - IAM USER : Give the user permissions to interact with specific services, and get credentials to identify that user.
 
 - Configure the scripting environment with the AWS CLI tool.
+
   aws configure
+  
   AWS Access Key ID [None]: XXXXXXXXXXXXXXXXX
+  
   AWS Secret Access Key [None]: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+  
   Default region name [None]: us-west-2
+  
   Default output format [None]: text
   
   ****The above steps configures your environment****
