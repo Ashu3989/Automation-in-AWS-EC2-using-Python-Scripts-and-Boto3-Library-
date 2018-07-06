@@ -14,7 +14,8 @@
 import boto3
 import json
 
-ec2 = boto3.client('ec2')
+client = boto3.client('ec2')
+ec2= boto3.resource('ec2')
 
 #Read the JSON file
 json_file = open("C:/AWS Scripts/Stopping_Data.json", "r")
@@ -23,7 +24,7 @@ data = json.load(json_file)
 InstanceID =[]
 InstanceID = data["InstanceID"]
 for x in range(len(InstanceID)):
-	instance = ec2.stop_instances(InstanceIds = [InstanceID[x]])
+	instance = client.stop_instances(InstanceIds = [InstanceID[x]])
 	
 #List all the Instances
 for instance in ec2.instances.all():
