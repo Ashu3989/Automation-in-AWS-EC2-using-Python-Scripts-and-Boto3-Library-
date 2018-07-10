@@ -3,7 +3,7 @@
 	{
 	"MinCount" :1,
 	"MaxCount":1,
-	"no_of_instances" : 4,
+	"no_of_instances" : 20,
 	"InstanceType":"t2.micro",
 	"keyname":"Testing_VM",
 	"Images" : 
