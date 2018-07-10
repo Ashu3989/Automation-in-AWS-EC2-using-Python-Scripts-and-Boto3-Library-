@@ -1,0 +1,24 @@
+{
+"VM":
+	{
+	"no_of_instance":2,
+	"Volumes" : 
+			[
+				{
+				"InstanceID" : "i-02da82b8cc9ddaca5",
+				"Size": 5,
+				"Device_Name": "xvdk"
+				},
+				{
+				"InstanceID" : "i-00e702775dd0b6541",
+				"Size": 5,
+				"Device_Name": "xvdl"
+				}
+			
+			]
+				
+	}
+}
+
+
+
