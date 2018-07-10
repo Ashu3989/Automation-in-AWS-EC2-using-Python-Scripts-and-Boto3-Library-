@@ -5,7 +5,9 @@
 ###
 ###
 ###  Create a JSON file with the specification of the requirement in the following format:
-###  Note: Here number of instances is 2, for more instances, update the "images" Collection.
+###  Note: Here number of instances is 2, for more instances, update the "images" Collection. 
+###  
+###  Please refer to aws_ec2_creation_of_instances.json file uploaded.
 ###
 ###  
 ###		{
@@ -41,7 +43,7 @@ import time
 import json
 
 #Read the JSON file 
-json_file = open("C:/AWS Scripts/Data.json", "r")
+json_file = open("C:/AWS Scripts/aws_ec2_creation_of_instances.json", "r")
 data = json.load(json_file)
 
 ec2 = boto3.resource('ec2')
