@@ -5,8 +5,10 @@
 ###
 ###
 ###  Create a JSON file with the specification of the requirement in the following format:
+###  Please refer to aws_ec2_attach_volumes_instances.json file uploaded.
+###  
 ###  Note: Here number of volume created are 2, for more instances, update the "Volumes" Collection.
-###		   The Device Name terminology are different for different OS,
+###        The Device Name terminology are different for different OS,
 ### 	   therefore, please lookup for available device names in AWS documentation. Only those names are accepted.
 ###		   	
 ###  
@@ -39,7 +41,7 @@ ec2 = boto3.resource('ec2')
 #ec2= boto3.client('ec2')
 
 #Read the JSON file
-json_file = open("C:/AWS Scripts/Attach_Volume_json.json", "r")
+json_file = open("C:/AWS Scripts/aws_ec2_attach_volumes_instances.json", "r")
 data = json.load(json_file)
 
 #Accessing data from JSON
