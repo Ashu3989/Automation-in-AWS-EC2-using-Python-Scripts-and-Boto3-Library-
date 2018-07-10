@@ -1,0 +1,99 @@
+{
+"VM":
+	{
+	"MinCount" :1,
+	"MaxCount":1,
+	"no_of_instances" : 4,
+	"InstanceType":"t2.micro",
+	"keyname":"Testing_VM",
+	"Images" : 
+			[
+				{
+				"ImageId" : "ami-3703414f",
+				"name": "Windows_Staging1"
+				},
+				{
+				"ImageId" : "ami-3703414f",
+				"name": "Windows_Prod1"
+				},
+				{
+				"ImageId" : "ami-3703414f",
+				"name": "Windows_Staging2"
+				},
+				{
+				"ImageId" : "ami-3703414f",
+				"name": "Windows_Prod2"
+				},
+				{
+				"ImageId" : "ami-3703414f",
+				"name": "Windows_Staging3"
+				},
+				{
+				"ImageId" : "ami-3703414f",
+				"name": "Windows_Prod3"
+				},
+				{
+				"ImageId" : "ami-3703414f",
+				"name": "Windows_Staging4"
+				},
+				{
+				"ImageId" : "ami-3703414f",
+				"name": "Windows_Prod4"
+				},
+				{
+				"ImageId" : "ami-3703414f",
+				"name": "Windows_Staging5"
+				},
+				{
+				"ImageId" : "ami-3703414f",
+				"name": "Windows_Prod5"
+				},
+				{
+				"ImageId" : "ami-a9d09ed1",
+				"name": "Linux_Staging1"
+				},
+				{
+				"ImageId" : "ami-a9d09ed1",
+				"name": "Linux_Prod1"
+				},
+				{
+				"ImageId" : "ami-a9d09ed1",
+				"name": "Linux_Staging2"
+				},
+				{
+				"ImageId" : "ami-a9d09ed1",
+				"name": "Linux_Prod2"
+				},
+				{
+				"ImageId" : "ami-a9d09ed1",
+				"name": "Linux_Staging3"
+				},
+				{
+				"ImageId" : "ami-a9d09ed1",
+				"name": "Linux_Prod3"
+				},
+				{
+				"ImageId" : "ami-a9d09ed1",
+				"name": "Linux_Staging4"
+				},
+				{
+				"ImageId" : "ami-a9d09ed1",
+				"name": "Linux_Prod4"
+				},
+				{
+				"ImageId" : "ami-a9d09ed1",
+				"name": "Linux_Staging5"
+				},
+				{
+				"ImageId" : "ami-a9d09ed1",
+				"name": "Linux_Prod5"
+				}
+			
+			]
+				
+	}
+}
+	
+
+
+
