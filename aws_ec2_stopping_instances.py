@@ -4,8 +4,8 @@
 ###
 ###
 ###  Create a JSON file with the Instance ID that needs to be terminated in the following format:
+###  Please refer to aws_ec2_stopping_instances.json file uploaded.
 ###  
-###Stopping_Data.json file:
 ###{
 ###	"InstanceID":["i-XXXXXXXX" ,"i-XXXXXXXX" ,"i-XXXXXXXX" ,"i-XXXXXXXX" ,"i-XXXXXXXX" ,"i-XXXXXXXX"]
 ###}
@@ -18,7 +18,7 @@ client = boto3.client('ec2')
 ec2= boto3.resource('ec2')
 
 #Read the JSON file
-json_file = open("C:/AWS Scripts/Stopping_Data.json", "r")
+json_file = open("C:/AWS Scripts/aws_ec2_stopping_instances.json", "r")
 data = json.load(json_file)
 
 InstanceID =[]
