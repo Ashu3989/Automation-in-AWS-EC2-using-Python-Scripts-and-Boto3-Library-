@@ -7,6 +7,10 @@ REQUIREMENTS:
 - Python3 
 - Python package manager, use pip to install the Boto3 library and the AWS CLI tool.
 
+Run the below commands in command prompt to check:
+- For Python Version type "python -V". The version should be 2.6 or greater.
+- For pip version type "pip -V". the version should be 9.0.1 or newer.
+
 GETTING CONFIGURED:
 - Using the pip command, install the AWS CLI and Boto3:
 
